@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.MyFirstProject" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimary">#FF0000</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
@@ -12,5 +12,32 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+        <item name="android:textViewStyle">@style/Theme.MyFirstProject.TextFont</item>
+
+
     </style>
+
+    <style name="Theme.MyFirstProject.TextFont" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">36sp</item>
+
+    </style>
+
+    <style name="Theme.MyFirstProject.TextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">36sp</item>
+
+    </style>
+
+    <style name="Theme.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">#00FF19</item>
+
+    </style>
+
+    <style name="Theme.MyFirstProject.TextView2" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">25sp</item>
+
+    </style>
+
+
 </resources>

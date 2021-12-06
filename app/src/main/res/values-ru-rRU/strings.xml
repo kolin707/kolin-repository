@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="random">Случайность</string>
+    <string name="next_activity">Следующий</string>
+    <string name="hello">Привет</string>
+    <string name="new_text">Новый текст</string>
+    <string name="MyFirstApplication">Первый проект</string>
+    <string name="bye">Пока</string>
+</resources>

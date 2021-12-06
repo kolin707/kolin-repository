@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">MyFirstProject</string>
+    <string name="app_name" translatable="false">MyFirstProject</string>
+    <string name="random">Random</string>
+    <string name="next_activity">Next activity</string>
+    <string name="hello">Hello</string>
+    <string name="new_text">New text</string>
+    <string name="MyFirstApplication">MyFirstApplication</string>
+    <string name="bye">Bye</string>
 </resources>
